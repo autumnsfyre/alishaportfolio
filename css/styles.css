@@ -37,5 +37,3 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Paytone One', sans-serif;
 }
-
-$grid-columns: 12 !default;
