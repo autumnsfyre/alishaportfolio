@@ -326,7 +326,7 @@ body {
   }
   .av-website {
     position:absolute;
-    top: 250px;
+    top: 200px;
   }
 
   .navigation {
@@ -342,16 +342,6 @@ body {
   }
   .slider-pagination {
     left: 2%;
-  }
-
-  .slider .buy-now-btn {
-    padding: 0 15px;
-    width: 175px;
-    height: 42px;
-  }
-
-  .slider .buy-now-btn:after {
-    top: 15px;
   }
 
   .slider > img {
