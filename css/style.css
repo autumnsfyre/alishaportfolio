@@ -220,7 +220,7 @@ body {
 
 .number-pagination span {
   font-size: 30px;
-  color: #ea2e49;
+  color: #a80526;
   letter-spacing: 4px;
 }
 
@@ -293,8 +293,8 @@ body {
 /* Responsive */
 @media only screen and (max-width: 768px) {
   .resume {
-    margin: 0px;
-    width: 100vw;
+    margin: 0 auto;
+    width: 90vw;
   }
 
   .av-website {
@@ -304,7 +304,7 @@ body {
   }
 
   .slide-1 a img {
-    right: 0%;
+    right: 4%;
   }
 
   .slider h2 {
@@ -321,12 +321,12 @@ body {
   }
   .slider .resume {
     position:absolute;
-    top: 140px;
+    top: 130px;
     padding: 40px;
   }
   .av-website {
     position:absolute;
-    top: 200px;
+    top: 270px;
   }
 
   .navigation {
@@ -342,6 +342,16 @@ body {
   }
   .slider-pagination {
     left: 2%;
+  }
+
+  .slider .buy-now-btn {
+    padding: 0 15px;
+    width: 175px;
+    height: 42px;
+  }
+
+  .slider .buy-now-btn:after {
+    top: 15px;
   }
 
   .slider > img {
