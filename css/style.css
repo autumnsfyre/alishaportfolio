@@ -321,7 +321,8 @@ body {
   }
   .slider .resume {
     position:absolute;
-    top: 180px;
+    top: 140px;
+    padding: 40px;
   }
   .av-website {
     position:absolute;
