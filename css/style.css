@@ -70,7 +70,7 @@ body {
 
 .navigation-left label:hover,
 .navigation-left label:focus {
-  border-color: #333745;
+  border-color: #a80526;
 }
 
 .navigation-center {
@@ -260,7 +260,7 @@ body {
 .slide-radio3:checked ~ .slider-pagination .page3 {
   width: 14px;
   height: 14px;
-  border: 2px solid #ea2e49;
+  border: 2px solid #a80526;
   background: transparent;
 }
 
