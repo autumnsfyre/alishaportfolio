@@ -122,8 +122,8 @@ body {
 }
 
 .slide-2 {
-  background: #CCD7E7 url("../images/soscc-design-examples.jpg");
-  background-size: contain;
+  background: #CCD7E7 url("../images/soscc-design-examples-long.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 100%;
