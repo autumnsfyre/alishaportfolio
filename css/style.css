@@ -129,8 +129,12 @@ body {
   left: 100%;
 }
 .slide-3 {
-  background: #CCD7E7;
+  background: #CCD7E7 url("../images/countykerrydisplay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   left: 200%;
+}
 }
 .slider {
   display: flex;
@@ -360,5 +364,9 @@ body {
 
   .slide-1 > img {
     right: -110px;
+  }
+
+  .slide-2, .slide-3 {
+    background-size: contain;
   }
 }
