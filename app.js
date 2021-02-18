@@ -25,7 +25,7 @@ function handleNext() {
 
     $activeRadio
       .next('input[class*="slide-radio"]')
-      .attr('checked', true);
+      .attr('checked', false);
 
   }
 
