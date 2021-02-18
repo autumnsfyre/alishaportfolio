@@ -146,6 +146,20 @@ body {
   background-position: center;
   left: 200%;
 }
+.slide-4 {
+  background: #CCD7E7 url("../images/.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 300%;
+}
+.slide-5 {
+  background: #CCD7E7 url("../images/.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 400%;
+}
 }
 .slider {
   display: flex;
@@ -240,12 +254,12 @@ body {
 }
 
 .number-pagination span:after {
-  content: "/3";
+  content: "/5";
   font-size: 16px;
   color: #fff;
 }
 
-/* Slider Pagger */
+/* Slider Pager */
 .slider-pagination {
   position: absolute;
   bottom: 30px;
@@ -268,7 +282,9 @@ body {
 /* Slider Pagger Event */
 .slide-radio1:checked ~ .slider-pagination .page1,
 .slide-radio2:checked ~ .slider-pagination .page2,
-.slide-radio3:checked ~ .slider-pagination .page3 {
+.slide-radio3:checked ~ .slider-pagination .page3,
+.slide-radio3:checked ~ .slider-pagination .page4,
+.slide-radio3:checked ~ .slider-pagination .page5 {
   width: 14px;
   height: 14px;
   border: 2px solid #a80526;
@@ -288,18 +304,30 @@ body {
   -webkit-transform: translateX(-200%);
   transform: translateX(-200%);
 }
+.slide-radio4:checked ~ .slider {
+  -webkit-transform: translateX(-300%);
+  transform: translateX(-300%);
+}
+.slide-radio5:checked ~ .slider {
+  -webkit-transform: translateX(-400%);
+  transform: translateX(-400%);
+}
 
 .slide-radio1:checked ~ .slide-1 h2,
 .slide-radio2:checked ~ .slide-2 h2,
 .slide-radio3:checked ~ .slide-3 h2,
 .slide-radio4:checked ~ .slide-4 h2,
+.slide-radio5:checked ~ .slide-5 h2,
 .slide-radio1:checked ~ .slide-1 h4,
 .slide-radio2:checked ~ .slide-2 h4,
 .slide-radio3:checked ~ .slide-3 h4,
 .slide-radio4:checked ~ .slide-4 h4,
+.slide-radio5:checked ~ .slide-5 h4,
 .slide-radio1:checked ~ .slide-1 > img,
 .slide-radio2:checked ~ .slide-2 > img,
-.slide-radio3:checked ~ .slide-3 > img {
+.slide-radio3:checked ~ .slide-3 > img,
+.slide-radio4:checked ~ .slide-4 > img,
+.slide-radio5:checked ~ .slide-5 > img {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   opacity: 1
@@ -377,7 +405,7 @@ body {
     right: -110px;
   }
 
-  .slide-2, .slide-3 {
+  .slide-2, .slide-3, .slide-4, .slide-5 {
     background-size: contain;
   }
 
