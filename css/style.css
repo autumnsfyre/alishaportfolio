@@ -283,8 +283,8 @@ body {
 .slide-radio1:checked ~ .slider-pagination .page1,
 .slide-radio2:checked ~ .slider-pagination .page2,
 .slide-radio3:checked ~ .slider-pagination .page3,
-.slide-radio3:checked ~ .slider-pagination .page4,
-.slide-radio3:checked ~ .slider-pagination .page5 {
+.slide-radio4:checked ~ .slider-pagination .page4,
+.slide-radio5:checked ~ .slider-pagination .page5 {
   width: 14px;
   height: 14px;
   border: 2px solid #a80526;
