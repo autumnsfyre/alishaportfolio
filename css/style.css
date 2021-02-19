@@ -140,21 +140,21 @@ body {
   left: 100%;
 }
 .slide-3 {
-  background: #CCD7E7 url("../images/countykerrydisplay.jpg");
+  background: #CCD7E7 url("../images/av-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 200%;
 }
 .slide-4 {
-  background: #CCD7E7 url("../images/.jpg");
+  background: #CCD7E7 url("../images/ecftherapy-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 300%;
 }
 .slide-5 {
-  background: #CCD7E7 url("../images/.jpg");
+  background: #CCD7E7 url("../images/aww-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -270,8 +270,8 @@ body {
   align-items: center;
 }
 .slider-pagination label {
-  width: 8px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   display: inline-block;
   background: #fff;
@@ -285,8 +285,8 @@ body {
 .slide-radio3:checked ~ .slider-pagination .page3,
 .slide-radio4:checked ~ .slider-pagination .page4,
 .slide-radio5:checked ~ .slider-pagination .page5 {
-  width: 14px;
-  height: 14px;
+  width: 22px;
+  height: 22px;
   border: 2px solid #a80526;
   background: transparent;
 }
