@@ -125,7 +125,7 @@ body {
 
 /* Slides Background Color */
 .slide-1 {
-  background: #CCD7E7 url("../images/resume-design.jpg");
+  background: #9A8899 url("../images/resume-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -133,28 +133,28 @@ body {
 }
 
 .slide-2 {
-  background: #CCD7E7 url("../images/soscc-design-examples-long.jpg");
+  background: #9A8899 url("../images/soscc-design-examples-long.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 100%;
 }
 .slide-3 {
-  background: #CCD7E7 url("../images/av-background.jpg");
+  background: #9A8899 url("../images/av-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 200%;
 }
 .slide-4 {
-  background: #CCD7E7 url("../images/ecftherapy-design.jpg");
+  background: #9A8899 url("../images/ecf-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 300%;
 }
 .slide-5 {
-  background: #CCD7E7 url("../images/aww-background.jpg");
+  background: #9A8899 url("../images/aww-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
