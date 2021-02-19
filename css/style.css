@@ -72,13 +72,15 @@ body {
   text-align: center;
   line-height: 25px;
   transition: all .2s;
-  padding: 10px;
+  padding: 8px;
 }
 
 .navigation-left label:hover,
 .navigation-left label:focus {
   border-color: #a80526;
 	color: #fff;
+	transition: .3s;
+	background-color: rgba(191, 191, 191, 0.5)
 }
 
 .navigation-center {
