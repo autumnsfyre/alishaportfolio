@@ -78,6 +78,7 @@ body {
 .navigation-left label:hover,
 .navigation-left label:focus {
   border-color: #a80526;
+	color: #fff;
 }
 
 .navigation-center {
