@@ -133,35 +133,42 @@ body {
   background-position: center;
   left: 0;
 }
-
 .slide-2 {
-  background: #9A8899 url("../images/soscc-design-examples-long.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  left: 100%;
-}
-.slide-3 {
-  background: #9A8899 url("../images/av-background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  left: 200%;
-}
-.slide-4 {
-  background: #9A8899 url("../images/ecf-design.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  left: 300%;
-}
-.slide-5 {
   background: #9A8899 url("../images/miquote-aww-background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   left: 400%;
 }
+.slide-3 {
+  background: #9A8899 url("../images/autumnsfyre-2024.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 400%;
+}
+.slide-4 {
+  background: #9A8899 url("../images/soscc-design-examples-long.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 100%;
+}
+.slide-5 {
+  background: #9A8899 url("../images/av-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 200%;
+}
+.slide-6 {
+  background: #9A8899 url("../images/ecf-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 300%;
+}
+
 }
 .slider {
   display: flex;
@@ -286,7 +293,8 @@ body {
 .slide-radio2:checked ~ .slider-pagination .page2,
 .slide-radio3:checked ~ .slider-pagination .page3,
 .slide-radio4:checked ~ .slider-pagination .page4,
-.slide-radio5:checked ~ .slider-pagination .page5 {
+.slide-radio5:checked ~ .slider-pagination .page5,
+.slide-radio5:checked ~ .slider-pagination .page6 {
   width: 22px;
   height: 22px;
   border: 2px solid #a80526;
@@ -314,22 +322,28 @@ body {
   -webkit-transform: translateX(-400%);
   transform: translateX(-400%);
 }
-
+.slide-radio6:checked ~ .slider {
+  -webkit-transform: translateX(-400%);
+  transform: translateX(-400%);
+}
 .slide-radio1:checked ~ .slide-1 h2,
 .slide-radio2:checked ~ .slide-2 h2,
 .slide-radio3:checked ~ .slide-3 h2,
 .slide-radio4:checked ~ .slide-4 h2,
 .slide-radio5:checked ~ .slide-5 h2,
+.slide-radio6:checked ~ .slide-6 h2,
 .slide-radio1:checked ~ .slide-1 h4,
 .slide-radio2:checked ~ .slide-2 h4,
 .slide-radio3:checked ~ .slide-3 h4,
 .slide-radio4:checked ~ .slide-4 h4,
 .slide-radio5:checked ~ .slide-5 h4,
+.slide-radio6:checked ~ .slide-6 h4,
 .slide-radio1:checked ~ .slide-1 > img,
 .slide-radio2:checked ~ .slide-2 > img,
 .slide-radio3:checked ~ .slide-3 > img,
 .slide-radio4:checked ~ .slide-4 > img,
-.slide-radio5:checked ~ .slide-5 > img {
+.slide-radio5:checked ~ .slide-5 > img, 
+.slide-radio6:checked ~ .slide-6 > img {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   opacity: 1
@@ -407,7 +421,7 @@ body {
     right: -110px;
   }
 
-  .slide-2, .slide-3, .slide-4, .slide-5 {
+  .slide-2, .slide-3, .slide-4, .slide-5, .slide-6 {
     background-size: contain;
   }
 
