@@ -77,7 +77,7 @@ body {
 
 .navigation-left label:hover,
 .navigation-left label:focus {
-  border-color: #a80526;
+  border-color: #7300e6;
 	color: #fff;
 	transition: .3s;
 	background-color: rgba(191, 191, 191, 0.5)
