@@ -138,35 +138,35 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  left: 400%;
+  left: 100%;
 }
 .slide-3 {
   background: #9A8899 url("../images/autumnsfyre-2024.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  left: 400%;
+  left: 200%;
 }
 .slide-4 {
   background: #9A8899 url("../images/soscc-design-examples-long.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  left: 100%;
+  left: 300%;
 }
 .slide-5 {
   background: #9A8899 url("../images/av-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  left: 200%;
+  left: 400%;
 }
 .slide-6 {
   background: #9A8899 url("../images/ecf-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  left: 300%;
+  left: 500%;
 }
 
 }
