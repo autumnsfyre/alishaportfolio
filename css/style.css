@@ -5,9 +5,9 @@
 .main-text {
 	color:#ffffff; 
 	text-align: center; 
-	padding: 5%; 
+	padding: 20%, 10%, 10%, 10%; 
 	background-color: rgb(0, 0, 0, 0.7); 
-	margins: 30%,30%,60%,30%;
+	margins: 80%,30%,30%,30%;
 }
 
 .av-website {
