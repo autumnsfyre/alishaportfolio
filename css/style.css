@@ -183,7 +183,8 @@ body {
   justify-content: flex-start;
 }
 .slider-content {
-  width: 635px;
+  width: 500px;
+margin-top: 70%;
   padding-left: 100px;
 }
 
