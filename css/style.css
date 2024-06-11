@@ -294,7 +294,7 @@ body {
 .slide-radio3:checked ~ .slider-pagination .page3,
 .slide-radio4:checked ~ .slider-pagination .page4,
 .slide-radio5:checked ~ .slider-pagination .page5,
-.slide-radio5:checked ~ .slider-pagination .page6 {
+.slide-radio6:checked ~ .slider-pagination .page6 {
   width: 22px;
   height: 22px;
   border: 2px solid #a80526;
@@ -323,8 +323,8 @@ body {
   transform: translateX(-400%);
 }
 .slide-radio6:checked ~ .slider {
-  -webkit-transform: translateX(-400%);
-  transform: translateX(-400%);
+  -webkit-transform: translateX(-500%);
+  transform: translateX(-500%);
 }
 .slide-radio1:checked ~ .slide-1 h2,
 .slide-radio2:checked ~ .slide-2 h2,
